@@ -1,0 +1,24 @@
+{
+  "name" : "nia/routing",
+  "description" : "The routing component routes a request through filters to a handler that will convert it to a response.",
+  "require" : {
+    "php" : ">=7.0.0",
+    "nia/requestresponse" : "*"
+  },
+  "license" : "MIT",
+  "keywords" : [ "nia", "request", "response", "routing", "router", "filter" ],
+  "minimum-stability" : "dev",
+  "autoload" : {
+    "psr-4" : {
+      "Nia\\Routing\\" : "sources/",
+      "Test\\Nia\\Routing\\" : "tests/"
+    }
+  },
+  "type" : "library",
+  "homepage" : "http://www.nat-software.de",
+  "authors" : [ {
+    "name" : "Patrick Ullmann",
+    "email" : "patrick.ullmann@nat-software.de",
+    "role" : "lead"
+  } ]
+}
